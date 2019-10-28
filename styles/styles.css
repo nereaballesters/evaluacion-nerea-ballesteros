@@ -1,0 +1,96 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    text-align: center; 
+}
+
+.header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    width: 155px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+a:hover{
+    color: #3CDBC0
+}
+
+.navigation{
+    font-size: 1rem;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    margin: 0px; 
+}
+
+.item1{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.item2{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.bigbox{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    background-color: #3CDBC0;
+    color: #ffffff;
+    width: 100vh;
+    height: 100vh;
+    font-size: 1.875rem;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media all and (min-width: 768px){
+    .header{
+        flex-direction: row;
+    }
+
+    .menu{
+        font-size: 1rem;
+    }
+
+    .box{
+        font-size: 2.5rem;
+    }
+}
+
+@media all and (min-width: 1016px){
+    .header{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu{
+        font-size: 1rem;
+    }
+
+    .box{
+        font-size: 2.5rem;
+    }
+
+}
+
+
+
+
